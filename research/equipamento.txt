@@ -1,0 +1,541 @@
+
+Inicio
+
+Nosotros
+
+Servicios
+
+Ensayos y mediciones
+
+Estudios Eléctricos
+
+Cursos de capacitación
+
+Otros servicios
+
+Equipamiento
+
+Clientes
+
+Contacto
+
+Search
+
+Menu
+
+Menu
+
+Facebook
+
+LinkedIn
+
+Equipamiento
+
+Sansion SXVLF-80/0.5
+
+Equipo destinado al testeo de cables, transformadores, motores, 
+
+Y otros aparatos eléctricos
+
+Tensión máxima:  80kV
+
+Frecuencia de salida: 0.1Hz, 0.05Hz y 0.02 Hzç
+
+Capacidad máxima de carga: 0.5μF@0.1Hz; 1.0μF@0.05Hz; 2.5μF@0.02Hz 
+
+Descargador de baterías Amperis
+
+El equipo es un analizador y descargador de baterías automático 
+
+diseñado para probar la eficiencia de las baterías industriales de  
+
+cualquier tipo, tensión y capacidad.
+
+Protección contra inversión de polaridad y antiarco
+
+Auto ensayo en el encendido
+
+Registrador integrado
+
+Medidor infrarrojo de temperatura Fluke 80T-IR
+
+El 80T-IR / E es compatible con cualquier DMM con impedancia de entrada de 10 MOhms, y capacidad de mV dc. Ideal para aplicaciones de mantenimiento donde el objeto a medir es peligroso al tocarlo, se mueve, se contamina fácilmente o es difícil de alcanzar.
+
+Medidor infrarrojo de temperatura Fluke 80T-IR
+
+Se utiliza para medir con precisión resistencias de contacto muy bajas de interruptores, barras colectoras, transformadores, motores, etc., con corrientes de prueba de 1 mA a 200 A.
+
+Resolución: 0.1 µΩ
+
+Lectura de resistencia: hasta 200
+
+Hasta 200 A de corriente de prueba.
+
+Keysight U1733C
+
+Medidor de capacidad e inductancia de mano 
+
+Resolución de 20,000 cuentas.
+
+0.2% de precisión
+
+Amplios rangos de LCR con 5 frecuencias de prueba seleccionables (100Hz, 120Hz y 1kHz, 10kHz y 100kHz)
+
+Unidad de pruebas primarias OMICRON CPC 100
+
+Dispositivo de pruebas universal para diagnóstico eléctrico que puede realizar pruebas eléctricas de transformadores de potencia, transformadores de corriente, transformadores de tensión, máquinas rotatorias, sistemas de puesta a tierra, líneas eléctricas, y cables, e interruptores de potencia.
+
+Detector de fallas en cables (Analógico)
+
+Este equipo utiliza la técnica de reflectometría en el tiempo (TDR). Detecta fallas en cables de cualquier tipo (potencia, comunicación, etc). Principales características y funciones del equipo:
+
+Rango máximo 26 km.
+
+Medición de una línea.
+
+Medición de dos líneas en forma simultánea, para comparación online.
+
+Medición de puntos de cruce entre líneas (Crosstalk Points).
+
+Detector de fallas en cables (digital)
+
+Equipo utiliza la técnica de reflectometría en el tiempo (tdr). Detecta fallas en cables de cualquier tipo (potencia, comunicación, etc). Principales características y funciones del equipo:
+
+Rango máximo 16 km.
+
+Medición de una línea.
+
+Medición de dos líneas en forma simultánea, para comparación online.
+
+Visualización dual o diferencial.
+
+Medición de puntos de cruce entre líneas (crosstalk points).
+
+Comunicación a pc,
+
+Permite almacenar el patrón de reflexiones medidas.
+
+Mediante ensayos periódicos, se pueden monitorear las características del cable (envejecimiento gradual, estado de empalmes, etc).
+
+Dranetz Power Guia 440S
+
+Características y funciones del equipo:
+
+Analizador que registra 256 muestras/ciclo/canal, ofrece comunicación remota utilizando RS-232, ethernet o USB, realiza todas sus funciones de acuerdo a la norma IEEE 1159, IEC 61000-4-30 y EN50160.
+
+Características adicionales:
+
+Análisis ciclo por ciclo (tase de muestreo para disparos a 500kHz).
+
+256 muestras por ciclo, pasos medio ciclo RMS, Variaciones RMS: bajadas, subidas e interrupciones.
+
+Transitorios de frecuencia baja y media en V & C Disparo cruzado en canales de V & C.
+
+Caracterización de eventos RMS de acuerdo a IEEE o IEC.
+
+W, VA, VAR, TPF, DPF, Demanda, Energía, etc. Armónicas e interarmónicas por IEC 61000-4-7.
+
+THD/ Espectro armónico (V, W) hasta 63. TID/ Espectro interarmónicas (V,I) hasta 63. Flicker de acuerdo IEC 61000-4-15 (Pst, Plt, Plt deslizante). Factor de cresta, Factor K, Factor de reducción de transformador. Factor de interferencia telefónica.
+
+Electronic Load Para Ensayos De Baterías.
+
+Este equipo es utilizado para ensayos de descarga de baterías a corriente constante. Mediante dispositivos semiconductores permite mantener la corriente constante a medida que disminuye la tensión de continua. Las características y funciones principales de este instrumento son las siguientes:
+
+Modo de tensión o corriente constante.
+
+Bus de continua hasta 400Vcc.
+
+Corriente de descarga constante hasta 15Acc.
+
+Unidad de medición OMICRON CP TD1
+
+Accesorio para pruebas de factor de potencia/disipación y capacitancia que en conjunto con el CPC 100 para realizar mediciones del factor de potencia/disipación y capacitancia en un rango de 15 Hz a 400 Hz ayudando a evaluar mejor el estado del aislamiento y detectar defectos en una fase temprana.
+
+AC Lutron EMF-828
+
+Medidor de campo magnético en 3D.
+
+Medición del campo electromagnético en tres ejes (X, Y, Z).
+
+Rango: 20/200 / 2,000 microTesla y 200 / 2,000 / 20,000 miliGauss.
+
+Ancho de banda: 30 Hz a 300 Hz.
+
+UNILAP GEO X  –  TELURÍMETRO DIGITAL
+
+Medidor de resistencia de puesta a tierra controlado por un microprocesador, con proceso totalmente automático. Las funciones de medición son las siguientes:
+
+Medición de tensión y frecuencia de interferencia.
+
+Medición de resistencia de un electrodo de tierra.
+
+Medición de resistencia de un electrodo de tierra selectiva sin desconexión del mismo, por ej. en sistemas de P.A.T. mallados.
+
+Medición de la resistividad de terrenos.
+
+Medición de resistencia con CA (20 mΩ … 300kΩ).
+
+Medición de resistencia con CC (20 mΩ … 3kΩ).
+
+UNIGOR 390 – MULTÍMETRO DIGITAL DE PRECISIÓN.
+
+Este equipo además de las características propias de un multímetro (medición de tensión, corriente, resistencia capacidad, etc), posee la posibilidad de realizar las siguientes mediciones:
+
+Potencia activa.
+
+Potencia reactiva.
+
+Potencia aparente.
+
+Factor de potencia (cos φ).
+
+Energía activa y reactiva.
+
+Registro temporal de variables eléctricas
+
+LCR METTER TONGHUI-TH2821A
+
+Características y funciones del equipo:
+
+Medición de inductancia desde 0,01uH a distintas frecuencias.
+
+Medición de capacidades desde 0,01pF a distintas frecuencias.
+
+Medición de resistencias desde 0,1 mHom.
+
+Detector de DP por Ultrasonido Ultraprobe 9000
+
+Sistema digital de inspección ultrasónico para el manejo, almacenamiento y la recuperación de datos.
+
+Su pantalla ofrece lecturas calibradas en decibeles y un gráfico de barras de 16 segmentos, que al instante registra los cambios en la intensidad del sonido y simultáneamente registra la retención de picos cuando escanea.
+
+Equipo de Ensayo de Rigidez Dielectrica de AT Phenix BK130/36
+
+Ideal para probar dispositivos de elevación aérea y plataformas elevadas.
+
+Capaz de probar forros dobles y de herradura (BK130 / 36).
+
+Cumple con las últimas normas ANSI e IEC (A92.2 / IEC 61813).
+
+Adecuado para requisitos de pruebas de aislamiento y dieléctricos comunes
+
+Sonda de alto voltaje Fluke 80k-40
+
+Sonda de alto voltaje diseñada para extender la capacidad de medición de voltaje de un voltímetro de CA / CC a 40,000 voltios. Categoría de sobretensión de CA o CC en el pico I.
+
+LOCALIZADOR DE FALLAS EN CABLES DE POTENCIA (THUMPER)  –   BIDDLE 651028.
+
+Características y funciones del equipo:
+
+Este equipo esta diseñado para localizar fallas en cables de potencia de hasta 35 kV.
+
+El equipo combina 3 funciones básicas para la detección y localización de fallas: prueba de aislación con tensión continua, quemado de fallas y generación de impulsos de alta energía.
+
+Principales características:
+
+Salida en modo prueba: 0 – 35 kV (ajuste continuo).
+
+Salida en modo quemado: 0 – 50 mA (ajuste continuo).
+
+Salida en modo impulsos: 0 – 24 kV (ajuste continuo).
+
+Miliamperímetro multiescala 0-1/10/50mA.
+
+Megger FRAX-101
+
+Analizador de respuesta de frecuencia de barrido para detectar potenciales problemas mecánicos y eléctricos que otros métodos son incapaces de detectar.
+
+ACE 2000 –  ANALIZADOR DE CALIDAD DESERIVICIO
+
+Funciones principales del equipo:
+
+Registro de variables eléctricas en sistemas monofásicos y trifásicos (V, I, P, Q, S, FP, KW-h, KVAr-h, KVA-h, etc.) para análisis de demanda, curvas de carga, etc.
+
+Análisis de Armónicos (hasta el 50), índice de distorsión total, espectro, formas de onda, etc. en sistemas eléctricos de potencia.
+
+Estudio de Transitorios y Perturbaciones (por ej. energización de transformadores, arranque de motores, fallas, etc.), captura de forma de onda, valores pico, etc.
+
+Análisis de sensación de Flicker, índice de flicker de corto y largo plazo (PST y PLT)
+
+Equipo homologado por el ENRE
+
+ISA AMI-150 | AMPLIFICADOR DE CORRIENTE.
+
+Para extender el rango de corriente de la valija ISA DRTS, se utiliza este amplificador, obteniendo en la salida las siguientes corrientes: 3×50 Amp o 1×150 Amp.
+
+DIVISOR RESISTIVO DE ALTA TENSIÓN
+
+Características y funciones del equipo:
+
+El divisor resistivo de alta tensión se utiliza para realizar calibraciones de equipos y ensayos de laboratorio
+
+Características adicionales:
+
+Tensión nominal de operación: 80 kVac.
+
+Tensión máxima de operación: 100 kVcc.
+
+Resistencia de entrada en corriente continua: tópica 400 MO.
+
+Precisión tópica: 0,5% del span, con resistencia de carga de 10 MO.
+
+ISA DRTS |  VALIJA TRIFÁSICA PARA ENSAYO DE PROTECCIONES
+
+Equipo de inyección secundaria de corriente para ensayo de protecciones monofásicas y trifásicas y sistemas de medición, operado totalmente desde PC. Los tipos de relé que pueden ensayarse son:
+
+Relé de distancia (21)
+
+Equipos de sincronización (25)
+
+Relé de máxima y mínima tensión (59/27)
+
+Relé de potencia inversa (32)
+
+Relé de máxima corriente de fase y tierra (50/51)
+
+Relé de protección diferencial (87)
+
+Relé de frecuencia (81)
+
+Relé direcciónal de máxima corriente (67)
+
+Otros (40-46-47-48-55-60-64-78-79-85-86-91-92-94)
+
+La salida de corriente es de 3×12.5 Amp o 1×25 Amp.
+
+CAMARA TERMOGRAFICA Ti-32 FLUKE
+
+Características y funciones del equipo:
+
+La cámara termográfica permite obtener el perfil térmico de equipos e instalaciones, a través de la captura en tiempo real de la radiación infrarroja emitida por la superficie de los objetos. Esto facilita el monitoreo de las condiciones de operación y el diagnóstico de fallas.
+
+El rango de medición abarca desde -20ºC hasta 600ºC.
+
+Definición de 320×240 píxeles.
+
+Se utiliza para monitorear y diagnosticar fallas en el área eléctrica, mecánica, e industrial en general, siendo las aplicaciones tópicas el mantenimiento predictivo y preventivo; monitoreo de procesos; investigación y desarrollo.
+
+En el área eléctrica, entre las condiciones más comunes que producen un aumento de temperatura de los componentes pueden citarse: conectores mal ajustados, cables o componentes sobrecargados, componentes fallados, insuficiente presión de contactos, etc.
+
+HIOKI 8842 | REGISTRADOR DIGITAL CONTINUO
+
+Poderoso registrador de formas de onda. Con velocidades de adquisición de 1 microseg, gran capacidad de almacenamiento y cantidad de canales analógicos y digitales de entrada. Excelente instrumento para el análisis de fenómenos transitorios y formas de onda. Sus características principales son:
+
+Mediciones simultaneas en los 16 canales.
+
+Muestreo interno de 1MS/seg.
+
+Entradas aisladas galvánicamente.
+
+Análisis de FFT.
+
+OnLine Display TFT de 10.4 pulgadas.
+
+Puerto de comunicación a PC.
+
+Impresora
+
+HOLADAY |  MEDIDOR DE CAMPO MAGNÉTICO.
+
+Características y funciones del equipo:
+
+Este instrumento permite realizar mediciones de las emisiones electromagnéticas.
+
+Sensibilidad para campos magnéticos de 1 V/m y para campos elétricos de 1mA/m.
+
+Método de medición de true RMS para formas de onda no sinusoidales.
+
+Salida por fibra óptica en caso de necesidad de control a distancia.
+
+Display digital para visualizar las mediciones y registros efectuados.
+
+HIPOTRONICS 880PL|   EQUIPO DE ENSAYO DE HI-POT.
+
+Este instrumento permite realizar ensayos de Hi-Pot con CC (80 KV) para primer energización o como rutina de mantenimiento de equipos eléctricos tales como:
+
+Transformadores.
+
+Cables y botellas terminales.
+
+Motores.
+
+Generadores.
+
+Celdas y Ductos de Barras.
+
+Otro equipamiento eléctrico.
+
+AUTO-OHM | MEDIOR AUTOMATICO DE RESISTENCIAS DE CONTACTO.
+
+Características y funciones principales del instrumento:
+
+Medición precisa de resistencia de contacto de interruptores, de contacto entre barras y cables de potencia, etc.
+
+Rango de medición de 1 a 19990 μ Ohm.
+
+Inyección de CC real de 100 Amp.
+
+BIDDLE AC 230315 | EQUIPO DE ENSAYO DE HI-POT DE CA
+
+Este instrumento permite realizar ensayos de Hi-Pot de CA con tensiones de hasta 3 KV y corrientes de fuga ajustables entre 0.3 y 12 mA, con el objeto de comprobar la rigidez dieléctrica de la aislación de equipos e instalaciones.
+
+CAMARA TERMOGRAFICA IRISYS 1011
+
+Características y funciones del equipo:
+
+La cámara termográfica permite obtener el perfil térmico de equipos e instalaciones, a través de la captura en tiempo real de la radiación infrarroja emitida por la superficie de los objetos. Esto facilita el monitoreo de las condiciones de operación y el diagnóstico de fallas.
+
+El rango de medición abarca desde -10ºC hasta 300ºC.
+
+Se utiliza para monitorear y diagnosticar fallas en el área eléctrica, mecánica, e industrial en general, siendo las aplicaciones tópicas el mantenimiento predictivo y preventivo; monitoreo de procesos; investigación y desarrollo.
+
+En el área eléctrica, entre las condiciones más comunes que producen un aumento de temperatura de los componentes pueden citarse: conectores mal ajustados, cables o componentes sobrecargados, componentes fallados, insuficiente presión de contactos, etc.
+
+ISA DRTS |   VALIJA TRIFÁSICA PARA ENSAYO DE PROTECCIONES
+
+Equipo de inyección secundaria de corriente para ensayo de protecciones monofásicas y trifásicas y sistemas de medición, operado totalmente desde PC. Los tipos de relé que pueden ensayarse son:
+
+Relé de distancia (21)
+
+Equipos de sincronización (25)
+
+Relé de máxima y mínima tensión (59/27)
+
+Relé de potencia inversa (32)
+
+Relé de máxima corriente de fase y tierra (50/51)
+
+Relé de protección diferencial (87)
+
+Relé de frecuencia (81)
+
+Relé direcciónal de máxima corriente (67)
+
+Otros (40-46-47-48-55-60-64-78-79-85-86-91-92-94)
+
+La salida de corriente es de 3×12.5 Amp o 1×25 Amp.
+
+ISA T-100 |  VALIJA MONOFÁSICA PARA ENSAYO DE PROTECCIONES.
+
+Equipo de inyección secundaria de corriente (hasta 50 A) para ensayo y ajuste de protecciones monofásicas con las siguientes funciones:
+
+Reles de máxima y mínima corriente de fase y tierra.
+
+Reles de máxima y mínima tensión.
+
+Reles térmicos.
+
+Temporizadores.
+
+Reles de potencia.
+
+Medidores de variables eléctricas.
+
+MBITE | MEDIDOR DE IMPEDANCIA INTERNA DE BATERÍAS
+
+Características y funciones del equipo:
+
+Medición de impedancia y tensión Vdc de baterías de Níquel-Cadmio y Plomo-Ácido de hasta 2500 Ah.
+
+Medición directa de la resistencia de interconexión entre celdas, sin necesidad de desconectar las mismas.
+
+Realiza las mediciones On-line, por lo que no es necesario poner fuera de servicio el banco a ensayar.
+
+No es necesario descargar el banco de baterías con lo que no se afecta su vida útil.
+
+SURGE TESTER CONIMED ST – 1207  |  Generador de Tensión Impulsiva (SURGE TEST)
+
+La principal aplicación del Generador de Tensión Impulsiva “Surge Tester” es el ensayo de aislación entre espiras de máquinas rotativas. El ensayo de impulso de tensión es el único método que permite probar el aislamiento entre espiras. Características:
+
+Produce oscilaciones de baja frecuencia y alta energía, lo cual permite buena penetración en el bobinado.
+
+Detecta espiras en corto, baja aislación entre espiras y asimetrías en los bobinados.
+
+Permite almacenar los trazos oscilográficos obtenidos, facilitando la comparación entre distintos ensayos.
+
+IPOTRONIC HV10  |  MEGGER DE 10KV.
+
+Las características y funciones principales de este instrumento son las siguientes:
+
+Medición de resistencia de aislación (hasta 10TΩ) en tableros interruptores, cables aislados y otros especímenes con y sin conexión a tierra.
+
+MEGGER BM25 | MEGGER AUTOMÁTICO DE 5 KV.
+
+Las características y funciones principales de este instrumento son las siguientes:
+
+Medición de resistencia de aislación (hasta 5 TΩ).
+
+Medición del índice de polarización.
+
+Ensayo de descarga dieléctrica.
+
+Ensayo de aislación a pasos de tensión.
+
+Indicación de la corriente de perdida, capacidad, etc.
+
+Ensayo totalmente automático.
+
+Varios niveles de tensión de ensayo 500 V, 1000 V, 2500 V, 5000 V
+
+NEY MEGGER AMPROBE AMB-45 b
+
+Características y funciones del equipo:
+
+Medición de resistencia de aislación (hasta 4 GOhm).
+
+Ensayo totalmente automático a tiempos programables.
+
+Varios niveles de tensión de ensayo 250 V, 500 V, 1000 V y variable.
+
+ODEN AT/1H  |  VALIJA DE INYECCIÓN PRIMARIA
+
+Equipo de inyección primaria de corriente (hasta 11 KA). La aplicación de este equipo es la siguiente:
+
+Ensayo de protecciones eléctricas.
+
+Ensayo de interruptores.
+
+Medición de relación de transformadores de corriente.
+
+Determinación de polaridad.
+
+Verificación de integridad de mallas de tierra.
+
+Ensayos de calentamiento.
+
+Ensayo de reconectadores y seccionalizadores.
+
+ATRT-03B  |  RELACIÓMETRO AUTOMÁTICO TRIFÁSICO
+
+Las características y funciones principales de este instrumento son las siguientes:
+
+Medición de la relación de transformación.
+
+Rango de medición de 0.8 a 15000.
+
+Ensayo específico para cada tipo de transformador (Dy, Yd, etc.)
+
+Medición de la corriente de excitación (en miliamperes) y el angulo de fase y polaridad de los arrollamientos del transformador.
+
+Interfaz con PC compatible que permite realizar un plan de ensayos para transformadores específicos.
+
+Contacto
+
+Informate sobre nuestros días y horarios de atención llamando al 0291 45 21 352 o bien al correo administracion@iconosrl.com.ar
+
+Villarino 53 | Buenos Aires | Argentina
+
+Seguinos
+
+facebook
+
+linkedin
+
+mail
+
+Scroll to top
+
+Consultar presupuesto
+
+Scroll Up
+
