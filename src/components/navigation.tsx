@@ -6,8 +6,8 @@ export function Arrow() {
   return <span aria-hidden="true" className="arrow"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" focusable="false"><path d="M5 19 19 5M5 5h14v14" /></svg></span>;
 }
 
-export function Brand({ light = false }: { light?: boolean }) {
-  return <a href="#inicio" className="brand" aria-label="ICONO SRL — Inicio"><img src={`/images/${light ? "Icono-logo-blanco-1.png" : "Icono-logo.png"}`} alt="ICONO SRL" width={light ? 427 : 134} height={light ? 172 : 67} /></a>;
+export function Brand({ light = false, href = "#inicio" }: { light?: boolean; href?: string }) {
+  return <a href={href} className="brand" aria-label="ICONO SRL — Inicio"><img src={`/images/${light ? "Icono-logo-blanco-1.png" : "Icono-logo.png"}`} alt="ICONO SRL" width={light ? 427 : 134} height={light ? 172 : 67} /></a>;
 }
 
 export function Header({ variant }: { variant: "a" | "b" | "c" }) {

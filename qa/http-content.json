@@ -33,5 +33,53 @@
     "h1": 1,
     "images": 3,
     "content": "pass"
+  },
+  {
+    "route": "/propuesta-d/servicios/ensayos-y-mediciones",
+    "status": 200,
+    "h1": 1,
+    "content": "pass"
+  },
+  {
+    "route": "/propuesta-d/servicios/ingenieria-y-estudios",
+    "status": 200,
+    "h1": 1,
+    "content": "pass"
+  },
+  {
+    "route": "/propuesta-d/servicios/servicios-de-capacitacion",
+    "status": 200,
+    "h1": 1,
+    "content": "pass"
+  },
+  {
+    "route": "/propuesta-d/servicios/nuestro-equipamiento",
+    "status": 200,
+    "h1": 1,
+    "content": "pass"
+  },
+  {
+    "route": "/propuesta-d/servicios/otros-servicios",
+    "status": 200,
+    "h1": 1,
+    "content": "pass"
+  },
+  {
+    "route": "/propuesta-d/nosotros",
+    "status": 200,
+    "h1": 1,
+    "content": "pass"
+  },
+  {
+    "route": "/propuesta-d/clientes",
+    "status": 200,
+    "h1": 1,
+    "content": "pass"
+  },
+  {
+    "route": "/propuesta-d/contacto",
+    "status": 200,
+    "h1": 1,
+    "content": "pass"
   }
 ]
