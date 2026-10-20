@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdir, writeFile } from 'node:fs/promises';
 const base = process.env.QA_BASE_URL || 'http://127.0.0.1:3100';
 const results = [];
-const routes = ['/', '/propuesta-a', '/propuesta-b', '/propuesta-c'];
+const routes = ['/', '/propuesta-a', '/propuesta-b', '/propuesta-c', '/propuesta-d'];
 for (const route of routes) {
   const response = await fetch(base + route);
   assert.equal(response.status, 200, `${route}: HTTP ${response.status}`);

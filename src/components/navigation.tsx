@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 export function Arrow() {
-  return <span aria-hidden="true" className="arrow">↗</span>;
+  return <span aria-hidden="true" className="arrow"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" focusable="false"><path d="M5 19 19 5M5 5h14v14" /></svg></span>;
 }
 
 export function Brand({ light = false }: { light?: boolean }) {
@@ -30,9 +30,9 @@ export function Header({ variant }: { variant: "a" | "b" | "c" }) {
   </header>;
 }
 
-export function ProposalNav({ active }: { active: "a" | "b" | "c" }) {
+export function ProposalNav({ active }: { active: "a" | "b" | "c" | "d" }) {
   useEffect(() => {
     if (!window.location.hash) window.scrollTo({ top: 0, behavior: "instant" });
   }, [active]);
-  return <nav className="proposal-nav" aria-label="Cambiar propuesta"><Link href="/" className="proposal-back"><span aria-hidden="true">←</span> Propuestas</Link><span className="proposal-divider" aria-hidden="true" />{["a", "b", "c"].map(id => <Link key={id} href={`/propuesta-${id}`} aria-label={`Propuesta ${id.toUpperCase()}`} aria-current={id === active ? "page" : undefined}>{id.toUpperCase()}</Link>)}</nav>;
+  return <nav className="proposal-nav" aria-label="Cambiar propuesta"><Link href="/" className="proposal-back"><span aria-hidden="true">←</span> Propuestas</Link><span className="proposal-divider" aria-hidden="true" />{["a", "b", "c", "d"].map(id => <Link key={id} href={`/propuesta-${id}`} aria-label={`Propuesta ${id.toUpperCase()}`} aria-current={id === active ? "page" : undefined}>{id.toUpperCase()}</Link>)}</nav>;
 }

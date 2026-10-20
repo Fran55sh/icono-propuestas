@@ -236,7 +236,7 @@ a:hover .arrow { transform: translate(3px, -3px); }
 .index-intro > div { display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; }
 .index-intro p:not(.eyebrow) { color: #62717d; font-size: 13px; }
 .index-instruction { font-size: 10px; display: flex; gap: 24px; color: #62717d; padding-bottom: 4px; }
-.proposal-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.proposal-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 46px 30px; }
 .proposal-card { min-width: 0; }
 .proposal-preview { aspect-ratio: 1.44; position: relative; overflow: hidden; background: #dfe5e8; }
 .proposal-preview img { width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform .5s ease; }
@@ -301,8 +301,10 @@ a:hover .arrow { transform: translate(3px, -3px); }
   .header-b { margin: 0; padding: 0 24px; }
   .header-b .main-nav { background: #fafbf9; color: #183e75; border-color: #d5dce1; }
   .header-c .main-nav .nav-contact { padding: 15px 0; border: 0; }
-  .proposal-nav { bottom: max(12px, env(safe-area-inset-bottom)); }
-  .proposal-nav a { min-width: 39px; min-height: 39px; }
+  .proposal-nav { bottom: max(12px, env(safe-area-inset-bottom)); gap: 0; max-width: calc(100% - 16px); }
+  .proposal-nav a { min-width: 44px; min-height: 44px; padding-inline: 8px; }
+  .proposal-nav .proposal-back { font-size: 10px; gap: 4px; }
+  .proposal-divider { margin-inline: 3px; }
   .section-description { font-size: 13px; }
   .service-details summary { gap: 17px; padding: 25px 0; }
   .service-title { font-size: 23px; }

@@ -3,7 +3,7 @@
     "route": "/",
     "status": 200,
     "h1": 1,
-    "images": 3,
+    "images": 4,
     "content": "pass"
   },
   {
@@ -22,6 +22,13 @@
   },
   {
     "route": "/propuesta-c",
+    "status": 200,
+    "h1": 1,
+    "images": 3,
+    "content": "pass"
+  },
+  {
+    "route": "/propuesta-d",
     "status": 200,
     "h1": 1,
     "images": 3,
