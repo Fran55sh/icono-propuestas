@@ -64,7 +64,7 @@
 .d-contact .contact-info { display: flex; flex-direction: column; gap: 32px; padding-top: 12px; }
 .design-d .contact-info a { min-height: 44px; }
 .d-contact .email-link { font-size: clamp(20px, 2vw, 28px); }
-.design-d .site-footer { background: #eaf0f6; border-top: 1px solid var(--d-line); padding-bottom: 110px; }
+.design-d .site-footer { background: #eaf0f6; border-top: 1px solid var(--d-line); padding: 30px 5vw; }
 .design-d .proposal-nav { background: var(--d-paper); color: var(--d-blue); border-color: var(--d-line); }
 .design-d .proposal-nav a { min-width: 44px; min-height: 44px; }
 .design-d .proposal-nav a[aria-current="page"] { background: var(--d-blue); color: var(--d-paper); }

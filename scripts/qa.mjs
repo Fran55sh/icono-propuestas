@@ -19,7 +19,7 @@ for (const route of routes) {
   if (route !== '/') {
     for (const section of ['servicios','nosotros','clientes','contacto']) assert.ok(html.includes(`id="${section}"`), `${route}: missing ${section}`);
     for (const fact of ['Ensayos y mediciones','Ingeniería y estudios',...(route === '/propuesta-d' ? ['Servicios de capacitación','Nuestro equipamiento'] : ['Capacitación técnica','Equipamiento']),'Otros servicios','26 años','ABB','Siemens','DOW Argentina','Pampa Energía','Genneia','Profertil','mailto:info@iconosrl.com.ar','tel:+542914521352','Villarino 53']) assert.ok(html.includes(fact), `${route}: missing shared content ${fact}`);
-    assert.ok(html.includes('aria-current="page"'), `${route}: missing active proposal`);
+    assert.ok(!html.includes('aria-label="Cambiar propuesta"'), `${route}: proposal switcher must stay hidden`);
   }
   results.push({ route, status: response.status, h1: 1, images: imagePaths.length, content: 'pass' });
 }
@@ -41,7 +41,7 @@ for (const [slug, title] of serviceRoutes) {
   const html = await response.text();
   assert.equal((html.match(/<h1\b/g) || []).length, 1, `${route}: exactly one H1`);
   assert.ok(html.includes(title), `${route}: service title missing`);
-  assert.ok(html.includes('href="/propuesta-d#servicios"'), `${route}: back navigation missing`);
+  assert.ok(html.includes('href="/#servicios"'), `${route}: back navigation missing`);
   assert.ok(html.includes('id="contacto"'), `${route}: contact missing`);
   assert.ok(html.includes('href="/propuesta-d/nosotros"'), `${route}: header must navigate home`);
   if (slug === 'nuestro-equipamiento') {
@@ -62,7 +62,7 @@ for (const [slug, title] of institutionalRoutes) {
   const html = await response.text();
   assert.equal((html.match(/<h1\b/g) || []).length, 1, `${route}: exactly one H1`);
   assert.ok(html.includes(`>${title}</h1>`), `${route}: missing title`);
-  for (const href of ['/propuesta-d', '/propuesta-d/nosotros', '/propuesta-d/clientes', '/propuesta-d/contacto', '/propuesta-d/servicios/nuestro-equipamiento']) assert.ok(html.includes(`href="${href}"`), `${route}: missing navigation to ${href}`);
+  for (const href of ['/', '/propuesta-d/nosotros', '/propuesta-d/clientes', '/propuesta-d/contacto', '/propuesta-d/servicios/nuestro-equipamiento']) assert.ok(html.includes(`href="${href}"`), `${route}: missing navigation to ${href}`);
   assert.ok(html.includes('aria-controls="d-services-submenu"'), `${route}: services disclosure missing`);
   assert.ok(html.includes('Estudios eléctricos') && html.includes('Cursos de capacitación'), `${route}: submenu labels missing`);
   if (slug === 'nosotros') {
@@ -83,6 +83,14 @@ for (const [slug, title] of institutionalRoutes) {
     assert.equal(asset.status, 200, `${route}: missing image ${image}`);
   }
   results.push({ route, status: response.status, h1: 1, content: 'pass' });
+}
+const publicHomepage = await (await fetch(base + '/')).text();
+assert.ok(publicHomepage.includes('class="design-d"'), 'Root must show the selected institutional homepage');
+assert.ok(!publicHomepage.includes('class="proposal-index"'), 'Root must not show the proposal gallery');
+for (const page of [publicHomepage, homepage]) {
+  assert.ok(!page.includes('aria-label="Cambiar propuesta"'), 'Proposal selector must stay hidden');
+  assert.ok(!/href="\/propuesta-[abc]"/.test(page), 'Public homepage must not link to other proposals');
+  assert.ok(!page.includes('Cuatro perspectivas'), 'Proposal comparison metadata must stay hidden');
 }
 await mkdir('qa', { recursive: true });
 await writeFile('qa/http-content.json', JSON.stringify(results, null, 2));

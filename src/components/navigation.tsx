@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { showProposalSelector } from "@/lib/site-config";
 import { useEffect, useRef, useState } from "react";
 
 export function Arrow() {
@@ -31,6 +32,10 @@ export function Header({ variant }: { variant: "a" | "b" | "c" }) {
 }
 
 export function ProposalNav({ active }: { active: "a" | "b" | "c" | "d" }) {
+  return showProposalSelector ? <ProposalSwitcher active={active} /> : null;
+}
+
+function ProposalSwitcher({ active }: { active: "a" | "b" | "c" | "d" }) {
   useEffect(() => {
     if (!window.location.hash) window.scrollTo({ top: 0, behavior: "instant" });
   }, [active]);

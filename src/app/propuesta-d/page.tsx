@@ -8,7 +8,7 @@ import { ServiceCard } from "@/components/service-card";
 import { serviceCards } from "@/lib/service-pages";
 import "./design.css";
 
-export const metadata: Metadata = { title: "D — Energía Institucional" };
+export const metadata: Metadata = { title: "Ingeniería eléctrica", description: company.intro };
 export const viewport: Viewport = { themeColor: "#fafbf9" };
 
 export default function ProposalD() {

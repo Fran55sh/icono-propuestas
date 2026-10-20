@@ -5,12 +5,13 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Brand } from "./navigation";
 
-const home = "/propuesta-d";
+const home = "/";
+const base = "/propuesta-d";
 const serviceLinks = [
-  { label: "Ensayos y mediciones", href: home + "/servicios/ensayos-y-mediciones" },
-  { label: "Estudios eléctricos", href: home + "/servicios/ingenieria-y-estudios" },
-  { label: "Cursos de capacitación", href: home + "/servicios/servicios-de-capacitacion" },
-  { label: "Otros servicios", href: home + "/servicios/otros-servicios" },
+  { label: "Ensayos y mediciones", href: base + "/servicios/ensayos-y-mediciones" },
+  { label: "Estudios eléctricos", href: base + "/servicios/ingenieria-y-estudios" },
+  { label: "Cursos de capacitación", href: base + "/servicios/servicios-de-capacitacion" },
+  { label: "Otros servicios", href: base + "/servicios/otros-servicios" },
 ];
 
 export function InstitutionalHeader() {
@@ -23,7 +24,7 @@ export function InstitutionalHeader() {
   const submenu = useRef<HTMLDivElement>(null);
   const close = () => { setMobileOpen(false); setServicesOpen(false); };
   const isServicePage = serviceLinks.some(item => pathname === item.href);
-  const current = (href: string) => pathname === href ? "page" as const : undefined;
+  const current = (href: string) => (pathname === href || (href === home && pathname === base)) ? "page" as const : undefined;
 
   useEffect(() => { setMobileOpen(false); setServicesOpen(false); }, [pathname]);
   useEffect(() => {
@@ -47,7 +48,7 @@ export function InstitutionalHeader() {
     </button>
     <nav className={"d-navigation" + (mobileOpen ? " is-open" : "")} id="d-main-navigation" aria-label="Navegación principal">
       <Link className="d-nav-link" href={home} aria-current={current(home)} onClick={close}>Inicio</Link>
-      <Link className="d-nav-link" href={home + "/nosotros"} aria-current={current(home + "/nosotros")} onClick={close}>Nosotros</Link>
+      <Link className="d-nav-link" href={base + "/nosotros"} aria-current={current(base + "/nosotros")} onClick={close}>Nosotros</Link>
       <div className="d-services-menu" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) setServicesOpen(false); }}>
         <button className={"d-nav-link d-services-toggle" + (isServicePage ? " is-current" : "")} ref={servicesButton} type="button" aria-expanded={servicesOpen} aria-controls="d-services-submenu" onClick={() => setServicesOpen(!servicesOpen)} onKeyDown={event => {
           if (event.key === "ArrowDown") { event.preventDefault(); setServicesOpen(true); requestAnimationFrame(() => submenu.current?.querySelector<HTMLAnchorElement>("a")?.focus()); }
@@ -56,9 +57,9 @@ export function InstitutionalHeader() {
           {serviceLinks.map(item => <Link key={item.href} href={item.href} aria-current={current(item.href)} onClick={close}>{item.label}</Link>)}
         </div>
       </div>
-      <Link className="d-nav-link" href={home + "/servicios/nuestro-equipamiento"} aria-current={current(home + "/servicios/nuestro-equipamiento")} onClick={close}>Equipamiento</Link>
-      <Link className="d-nav-link" href={home + "/clientes"} aria-current={current(home + "/clientes")} onClick={close}>Clientes</Link>
-      <Link className="d-nav-link d-nav-contact" href={home + "/contacto"} aria-current={current(home + "/contacto")} onClick={close}>Contacto</Link>
+      <Link className="d-nav-link" href={base + "/servicios/nuestro-equipamiento"} aria-current={current(base + "/servicios/nuestro-equipamiento")} onClick={close}>Equipamiento</Link>
+      <Link className="d-nav-link" href={base + "/clientes"} aria-current={current(base + "/clientes")} onClick={close}>Clientes</Link>
+      <Link className="d-nav-link d-nav-contact" href={base + "/contacto"} aria-current={current(base + "/contacto")} onClick={close}>Contacto</Link>
     </nav>
   </header>;
 }

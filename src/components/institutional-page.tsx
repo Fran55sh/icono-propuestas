@@ -9,7 +9,7 @@ export function InstitutionalPage({ title, eyebrow, intro, image, children }: { 
   return <div className="design-d d-institutional-page" id="inicio">
     <InstitutionalHeader />
     <main id="contenido" tabIndex={-1}>
-      <nav className="d-breadcrumb" aria-label="Ruta de navegación"><Link href="/propuesta-d">Inicio</Link><span aria-hidden="true">/</span><span aria-current="page">{title}</span></nav>
+      <nav className="d-breadcrumb" aria-label="Ruta de navegación"><Link href="/">Inicio</Link><span aria-hidden="true">/</span><span aria-current="page">{title}</span></nav>
       <section className="d-service-hero" aria-labelledby="page-title"><div className="d-hero-photo"><Photo priority src={image} alt="" /></div><div className="d-hero-panel"><div className="d-hero-heading"><p className="eyebrow">{eyebrow}</p><h1 id="page-title">{title}</h1></div><div className="d-hero-intro"><p>{intro}</p></div></div></section>
       {children}
     </main>

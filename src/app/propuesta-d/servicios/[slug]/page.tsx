@@ -27,7 +27,7 @@ export default async function ServicePage({ params }: Props) {
   return <div className="design-d d-service-page" id="inicio">
     <InstitutionalHeader />
     <main id="contenido" tabIndex={-1}>
-      <nav className="d-breadcrumb" aria-label="Ruta de navegación"><Link href="/propuesta-d">Inicio</Link><span aria-hidden="true">/</span><Link href="/propuesta-d#servicios">Servicios</Link><span aria-hidden="true">/</span><span aria-current="page">{service.title}</span></nav>
+      <nav className="d-breadcrumb" aria-label="Ruta de navegación"><Link href="/">Inicio</Link><span aria-hidden="true">/</span><Link href="/#servicios">Servicios</Link><span aria-hidden="true">/</span><span aria-current="page">{service.title}</span></nav>
       <section className="d-service-hero" aria-labelledby="service-title">
         <div className="d-hero-photo"><Photo priority src={service.image} alt="" /></div>
         <div className="d-hero-panel">
@@ -50,7 +50,7 @@ export default async function ServicePage({ params }: Props) {
         </div>
       </section>
 
-      <section className="d-section d-related-services" aria-labelledby="related-title"><div className="d-section-heading"><div><p className="eyebrow">Seguí explorando</p><h2 id="related-title">Nuestros otros servicios.</h2></div><Link className="d-link" href="/propuesta-d#servicios">Ver todos los servicios <Arrow /></Link></div><div className="d-related-grid">{related.map(item => <Link key={item.slug} href={serviceHref(item.slug)}><span className="eyebrow">{item.id}</span><h3>{item.title}</h3><Arrow /></Link>)}</div></section>
+      <section className="d-section d-related-services" aria-labelledby="related-title"><div className="d-section-heading"><div><p className="eyebrow">Seguí explorando</p><h2 id="related-title">Nuestros otros servicios.</h2></div><Link className="d-link" href="/#servicios">Ver todos los servicios <Arrow /></Link></div><div className="d-related-grid">{related.map(item => <Link key={item.slug} href={serviceHref(item.slug)}><span className="eyebrow">{item.id}</span><h3>{item.title}</h3><Arrow /></Link>)}</div></section>
 
       <section className="d-contact d-section" id="contacto" aria-labelledby="d-contact-title"><div className="d-contact-heading"><p className="eyebrow">Contacto</p><h2 id="d-contact-title">Conversemos sobre<br /><em>tu próximo proyecto.</em></h2><p>Consultá a nuestro equipo sobre {service.title.toLocaleLowerCase("es-AR")}.</p><Link className="d-link" href="/propuesta-d/contacto">Ir al formulario de contacto <Arrow /></Link></div><ContactInfo /></section>
     </main>
